@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es" xmlns:th="thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La lista de vehiculos</title>
+</head>
+<body>
+
+<div>
+    <h1>Los Vehiculos de Héctor</h1>
+    <ul>
+        <li th:each="elemento : ${vehiculos}" th:text="${elemento}"></li>
+    </ul>
+</div>
+
+</body>
+</html>
