@@ -11,7 +11,7 @@ import java.util.List;
 @Controller
 public class VehiculoController {
 
-    @GetMapping("/vehiculo")
+    @GetMapping("/")
     public String obtenerVehiculos(Model model) {
         List<String> listaVehiculos = new ArrayList<String>();
 
